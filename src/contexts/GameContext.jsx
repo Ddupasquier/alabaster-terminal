@@ -141,7 +141,8 @@ export const GameProvider = ({ children }) => {
         inputValue,
         setInputValue,
         startTime,
-        inputAllowed
+        inputAllowed,
+        setInputAllowed
       }}
     >
       {children}
